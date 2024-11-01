@@ -5,12 +5,12 @@ This project implements a simplified version of the DES (Data Encryption Standar
 - **main.c**: It's the primary entry point for the DES encryption process. It handles:
     - Reading plaintext input from the user.
     - Performing an initial permutation on the plaintext.
-    - Dividing the data into left and right segments for iterative         round processing.
+    - Dividing the data into left and right segments for iterative round processing.
     - Reading and permuting the key for round-based subkey generation.
-    - Executing 16 rounds of the DES encryption process, including         expansion, key mixing, and substitution using S-Boxes.
+    - Executing 16 rounds of the DES encryption process, including expansion, key mixing, and substitution using S-Boxes.
     - Applying the final permutation to produce the ciphertext output.
 
-- **functions.h**: This code defines functions and structures necessary for performing the DES (Data Encryption Standard) algorithm, including key generation, initial and final permutations, expansion permutations, and S-Box operations. It uses bitwise operations to achieve these cryptographic functions.
+- **functions.h**: This file defines functions and structures necessary for performing the DES (Data Encryption Standard) algorithm, including key generation, initial and final permutations, expansion permutations, and S-Box operations. It uses bitwise operations to achieve these cryptographic functions.
 
 ## Features 
 1. Initial and Final Permutations: The plaintext undergoes an initial permutation (IP) and a final permutation (IP inverse) as required by the DES specification.

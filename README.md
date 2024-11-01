@@ -10,7 +10,7 @@ This project implements a simplified version of the DES (Data Encryption Standar
     - Executing 16 rounds of the DES encryption process, including         expansion, key mixing, and substitution using S-Boxes.
     - Applying the final permutation to produce the ciphertext output.
 
-- **functions.h**: The header file that includes function declarations and any required macros or global definitions.
+- **functions.h**: This code defines functions and structures necessary for performing the DES (Data Encryption Standard) algorithm, including key generation, initial and final permutations, expansion permutations, and S-Box operations. It uses bitwise operations to achieve these cryptographic functions.
 
 ## Features 
 1. Initial and Final Permutations: The plaintext undergoes an initial permutation (IP) and a final permutation (IP inverse) as required by the DES specification.

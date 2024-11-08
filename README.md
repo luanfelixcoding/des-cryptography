@@ -39,6 +39,8 @@ To build and run this project, you will need:
 
 - Make sure to handle edge cases and integrate proper input handling in a production environment.
 
+- The input only support 8 characters
+
 ## Build and Run
 Follow these steps to compile and run the program:
 
